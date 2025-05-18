@@ -11,5 +11,5 @@ jobs:
       - run: sleep 10 && echo "Second job"
   third:
     runs-on: ubuntu-latest
-    stpes:
+    steps:
       - run: sleep 10 && echo "Third job"
